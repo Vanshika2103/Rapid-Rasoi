@@ -1,5 +1,6 @@
 import "./ConnectUs.css";
 import * as React from "react";
+import Gbtn from "../../Assets/play-store.png.svg"
 
 function ConnectUs() {
   return (
@@ -50,7 +51,7 @@ function ConnectUs() {
               >
                 <img
                   className="g-btn"
-                  src="Assets/play-store.png.svg"
+                  src={Gbtn}
                   alt="Get it on Google Play"
                 />
               </a>
