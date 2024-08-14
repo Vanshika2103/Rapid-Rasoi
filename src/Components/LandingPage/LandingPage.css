@@ -4,7 +4,7 @@
   border-radius: 0 0 30px 30px;
   background-size: cover;
   background-position: center;
-  background-image: url("Assets/Home.png");
+  background-image: url("../../Assets/Home.png");
 }
 
 .mini-section {

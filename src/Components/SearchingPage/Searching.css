@@ -69,7 +69,7 @@
   cursor: pointer;
 }
 .fork-icon-png {
-  background: url("Assets/ForkIcon.png") white 50% / contain no-repeat;
+  background: url("../../Assets/ForkIcon.png") white 50% / contain no-repeat;
   border-radius: 5px;
   height: 40px;
   width: 40px;

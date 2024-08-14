@@ -23,7 +23,7 @@
 }
 
 .testimonial-image {
-  background: url("Assets/testimonialimage.png") transparent 50% / contain
+  background: url("../../Assets/testimonialimage.png") transparent 50% / contain
     no-repeat;
   height: 70vh;
   width: 45%;
@@ -41,20 +41,20 @@
 }
 
 .avatar-1 {
-  background-image: url("Assets/Ajit.png");
+  background-image: url("../../Assets/Ajit.png");
 }
 
 .avatar-2 {
-  background-image: url("Assets/Mohasin.png");
+  background-image: url("../../Assets/Mohasin.png");
 }
 
 .avatar-3 {
-  background-image: url("Assets/Harish.png");
+  background-image: url("../../Assets/Harish.png");
 }
 
 .verified-tick {
   position: absolute;
-  background: url("Assets/verified.png");
+  background: url("../../Assets/verified.png");
   background-size: cover;
   background-position: center;
   height: 12px;

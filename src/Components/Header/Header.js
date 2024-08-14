@@ -1,6 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import logo from "../../../public/Assets/logoRapidRasoi.png";
+import logo from "../../Assets/logoRapidRasoi.png"
 import { useState } from "react";
 
 const Header = () => {
