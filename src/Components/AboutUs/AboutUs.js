@@ -1,5 +1,7 @@
 import * as React from "react";
 import "./AboutUs.css";
+import Home from "../../Assets/Home.png";
+
 const AboutUs = () => {
   return (
     <>
@@ -37,7 +39,7 @@ const AboutUs = () => {
           </div>
           <div className="services-div">
             <h2>Tailored Services</h2>
-            <img src="Assets/Home.png" alt="image" />
+            <img src={Home} alt="image" />
             <p>
               Our high-quality solutions are customized to meet the unique needs
               of each college, ensuring optimal performance and satisfaction.
