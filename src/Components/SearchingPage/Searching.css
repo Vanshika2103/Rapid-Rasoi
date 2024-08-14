@@ -1,0 +1,92 @@
+.searching-boxes {
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 3.5rem;
+}
+
+.discover > span {
+  color: var(--primary);
+}
+
+.searchingPage-headings > h1 {
+  color: var(--primary-text);
+}
+
+.searchingPage-headings > h1 > i {
+  color: var(--primary);
+}
+
+.searchingPage-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  padding: 16px;
+  width: 50vw;
+}
+
+.flex-item {
+  background-color: var(--white);
+  padding: 40px;
+  flex-grow: 1;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: var(--tertiary);
+  margin: 10px;
+  text-decoration: underline;
+}
+.flex-item:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(31, 21, 21, 0.32) 0%,
+    rgba(31, 21, 21, 0.45) 34.99%,
+    rgba(31, 21, 21, 0.52) 100%
+  );
+  color: var(--primary);
+}
+.get-in-touch-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+  background-color: var(--primary);
+}
+.get-in-touch-container > h2 {
+  max-width: 20%;
+  text-align: center;
+  color: var(--background);
+}
+.get-in-touch-container > button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.fork-icon-png {
+  background: url("Assets/ForkIcon.png") white 50% / contain no-repeat;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.btn-filled {
+  background-color: var(--primary);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-hollow {
+  border: 1px solid var(--primary);
+  transition: background-color 0.3s ease;
+}
+
+.btn-hollow:hover,
+.btn-filled:hover {
+  background-color: rgba(236, 122, 46, 0.7);
+}
